@@ -1,16 +1,23 @@
-# test_pro
+# flutter_mvvm_login_demo
 
-A new Flutter project.
+A Flutter app built using the GetX state management library with MVVM architecture.  
+Includes a login API integration for **practice and learning clean architecture**.
 
-## Getting Started
+## 🧠 Tech Stack
+- Flutter
+- GetX (for state management)
+- MVVM Architecture
+- HTTP API Integration
 
-This project is a starting point for a Flutter application.
+## 🚀 Purpose
+This project is created for **learning and practice**, focusing on building scalable and maintainable Flutter apps using the MVVM pattern.
 
-A few resources to get you started if this is your first Flutter project:
+## 🧾 Features
+- Login Screen with API integration
+- Reactive state management (Rx variables)
+- Clean separation between View, ViewModel, and Model layers
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+💡 *Created by [Ebadshah01](https://github.com/Ebadshah01)*
+
