@@ -27,3 +27,12 @@ class ServerException extends AppException {
 }
 
 
+class InvalidUrlException extends AppException {
+  InvalidUrlException([String? message]): super(message,"Invalid URLr");  
+}
+
+
+class FetchDataException extends AppException {
+  FetchDataException([String? message]): super(message,"");  
+}
+

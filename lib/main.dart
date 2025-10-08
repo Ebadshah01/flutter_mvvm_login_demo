@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:test_pro/resources/routes/routes.dart';
+import 'package:test_pro/resources/routes/routes_name.dart';
 // ignore: depend_on_referenced_packages
 import 'package:test_pro/view/home_screen.dart';
 
@@ -19,7 +21,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: HomeScreen()
+      home: HomeScreen(),
+    getPages:AppRoutes.appRoutes(),
+    initialRoute: RouteName.splashScreen,
     );
   }
 }

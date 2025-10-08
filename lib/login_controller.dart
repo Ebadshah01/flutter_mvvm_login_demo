@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
+import 'package:test_pro/resources/routes/routes_name.dart';
 
 class LoginController extends GetxController {
   final emailController = TextEditingController().obs;
@@ -41,8 +42,10 @@ class LoginController extends GetxController {
 
       if (response.statusCode == 200) {
         Get.snackbar("Login Successful", data["token"] ?? "No token found");
+       
       } else {
         Get.snackbar("Login Failed", data["error"] ?? "Unknown error");
+         Get.toNamed(RouteName.loginScreen);
       }
     } catch (e) {
       loading.value = false;
